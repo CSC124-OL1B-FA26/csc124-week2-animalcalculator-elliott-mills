@@ -8,9 +8,12 @@ int count = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Food per day (lbs): ");
 double food = Convert.ToDouble(Console.ReadLine());
+double dailyFood = (Console.Readline(9));
 
 double totalFood = count * food;
+double weeklyFood = totalFood * 7;
 
 Console.WriteLine($"\nAnimal: {name}");
 Console.WriteLine($"Count: {count}");
-Console.WriteLine($"Daily food: {totalFood} lbs");
+Console.Writeline($"Daily food: {dailyFood} lbs");
+Console.WriteLine($"Weekly food: {weeklyFood} lbs");
