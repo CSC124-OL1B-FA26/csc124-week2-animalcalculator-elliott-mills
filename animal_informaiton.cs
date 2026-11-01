@@ -1,10 +1,10 @@
 Console.WriteLine(" === Animal Information === ");
 
-Console.Write("Enter Animal Name");
-string name = Console. ReadLine ();
+Console.Write("Enter Animal Name: ");
+string name = Console.ReadLine();
 
 Console.Write("How Many? ");
-int count = Convert.ToDouble(Console.ReadLine());
+int count = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Food per day (lbs): ");
 double food = Convert.ToDouble(Console.ReadLine());
