@@ -4,10 +4,10 @@ Console.Write("Enter Animal Name");
 string name = Console. ReadLine ();
 
 Console.Write("How Many? ");
-int count = Convert.ToDoble(Console.Readline());
+int count = Convert.ToDouble(Console.ReadLine());
 
 Console.Write("Food per day (lbs): ");
-double food = Convert.ToDouble(Console.Readline());
+double food = Convert.ToDouble(Console.ReadLine());
 
 double totalFood = count * food;
 
